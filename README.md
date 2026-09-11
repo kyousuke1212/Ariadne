@@ -25,6 +25,7 @@
 - [ ] 长章节跨块时 heading 只有文档标题，需要按标题预切分
 
 ## 项目结构
+```
 agentic-rag/
 ├── core/              配置、日志、异常
 ├── ingestion/         文档加载 + 切块 + 分词
@@ -43,3 +44,4 @@ agentic-rag/
 │   └── 检索技术笔记.md
 ├── .gitignore
 └── README.md
+```
