@@ -11,13 +11,10 @@ def chunk_text(text, size=500, overlap=50):
         result.append(text[start : start + size])  
         start += size - overlap
 
-    tail = text[start:]                     # 尾巴
-    if len(tail) > 2*overlap:
+    tail = text[start:]                     
+    if len(tail) > overlap:
         result.append(tail)
 
     return result
 
-print(chunk_text("ABCDEFGHIJKLM", 5, 2))
-print(chunk_text("ABCDE", 5, 2))
-print(chunk_text("ABC", 5, 2))
-print(chunk_text("ABCDEF", 5, 2))
+#print(chunk_text("ABCDEFGHIJKLM", 5, 2))
