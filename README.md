@@ -11,7 +11,7 @@
 
 ## Roadmap
 - [x] ingest — Markdown加载 + 切块 + jieba分词
-- [ ] embed — 向量化（批处理+缓存）
+- [x] embed — 向量化（批处理+缓存）
 - [ ] BM25 关键词检索
 - [ ] 评测集（先行）
 - [ ] BaseRetriever + brute向量检索
@@ -22,7 +22,12 @@
 - [ ] FastAPI + Streamlit + Docker
 
 ## TODO
+
 - [ ] 长章节跨块时 heading 只有文档标题，需要按标题预切分
+### 技术债
+- [ ] embed 向量缓存
+      现状：语料仅 4 块，编码 <1s，缓存无收益（过早优化）
+      触发条件：评测阶段需反复编码，且单轮编码耗时 > 30s
 
 ## 项目结构
 ```
