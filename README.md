@@ -12,7 +12,7 @@
 ## Roadmap
 - [x] ingest — Markdown加载 + 切块 + jieba分词
 - [x] embed — 向量化（批处理+缓存）
-- [ ] BM25 关键词检索
+- [x] BM25 关键词检索
 - [ ] 评测集（先行）
 - [ ] BaseRetriever + brute向量检索
 - [ ] RRF 混合融合
