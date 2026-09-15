@@ -1,8 +1,8 @@
 import math
 import jieba
+from index.base import BaseRetriever
 
-
-class BM25:
+class BM25(BaseRetriever):
     def __init__(self, chunks):
         # chunks: list[Chunk]（ingestion 的产出，分词结果已经在 .tokens 里！）
         # 你要完成"建索引"：统计 N、df、每篇文档长度、avgdl
