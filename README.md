@@ -15,7 +15,7 @@
 - [x] BM25 关键词检索
 - [x] 评测集（先行）
 - [x] BaseRetriever + brute向量检索
-- [ ] RRF 混合融合
+- [x] RRF 混合融合
 - [ ] 评测指标（Recall@K / MRR / 延迟）
 - [ ] 自研 HNSW 图索引 ★
 - [ ] ReAct Agent
