@@ -1,0 +1,57 @@
+API 参考 Copy pageCopy
+# 配置
+本页列出 React 编译器的所有可用配置项。
+### 注意
+对于大多数应用，默认选项开箱即用即可满足需求。如果你有特殊需求，你可以使用这些高级选项。
+```
+// babel.config.jsmodule.exports = {  plugins: [    [      'babel-plugin-react-compiler', {        // 编译选项      }    ]  ]};
+```
+## 编译控制
+这些选项用于控制编译器优化的 内容，以及它 如何 选择要编译的组件和 hook。
+- compilationMode 控制选择要编译的函数的策略（例如：全部函数、仅带注解的函数，或自动检测）。
+```
+{  compilationMode: 'annotation' // 仅编译 “use memo” 函数}
+```
+## 版本兼容性
+React 版本配置可确保编译器生成的代码与你的 React 版本兼容。
+target 指定你正在使用的 React 版本（17、18 或 19）。
+```
+// 对于 React 18 项目{  target: '18' // 还需要 react-compiler-runtime 包}
+```
+## 错误处理
+这些选项控制编译器如何处理不遵循 React 规则 的代码。
+panicThreshold 决定是让构建失败还是跳过存在问题的组件。
+```
+// 推荐用于生产环境{  panicThreshold: 'none' // 跳过有错误的组件，而不是导致构建失败}
+```
+## 调试
+日志和分析选项有助于你理解编译器在做什么。
+logger 为编译事件提供自定义日志功能。
+```
+{  logger: {    logEvent(filename, event) {      if (event.kind === 'CompileSuccess') {        console.log('Compiled:', filename);      }    }  }}
+```
+## Feature Flags
+条件式编译使你控制何时使用优化后的代码。
+gating 启用运行时的特性开关，用于 A/B 测试或渐进式发布。
+```
+{  gating: {    source: 'my-feature-flags',    importSpecifierName: 'isCompilerEnabled'  }}
+```
+## 常见配置模式
+### 默认配置
+对于大多数 React 19 应用，编译器无需配置即可工作：
+```
+// babel.config.jsmodule.exports = {  plugins: [    'babel-plugin-react-compiler'  ]};
+```
+### React 17/18 项目
+较旧的 React 版本需要安装运行环境包并设置 target：
+```
+npm install react-compiler-runtime@latest
+```
+```
+{  target: '18' // 或 '17'}
+```
+### 渐进式接入
+从特定目录开始并逐步扩大范围：
+```
+{  compilationMode: 'annotation' 仅编译 “use memo” 函数}
+```

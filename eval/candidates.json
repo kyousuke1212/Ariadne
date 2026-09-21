@@ -1,0 +1,1230 @@
+[
+  {
+    "question": "\"use no memo\" 这个指令应该写在什么位置才能生效？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-compiler_directives_use-no-memo.md-2",
+    "pool": [
+      "react_reference_react-compiler_directives.md-3",
+      "react_reference_react-compiler_directives.md-4",
+      "react_reference_react-compiler_directives_use-memo.md-0",
+      "react_reference_react-compiler_directives_use-no-memo.md-0",
+      "react_reference_react-compiler_directives_use-no-memo.md-1",
+      "react_reference_react-compiler_directives_use-no-memo.md-2",
+      "react_reference_react-compiler_directives_use-no-memo.md-3"
+    ]
+  },
+  {
+    "question": "当函数级和模块级都写了 \"use no memo\" 时，哪个的优先级更高？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react-compiler_directives_use-no-memo.md-2",
+    "pool": [
+      "react_reference_react-compiler_directives.md-0",
+      "react_reference_react-compiler_directives.md-1",
+      "react_reference_react-compiler_directives_use-memo.md-0",
+      "react_reference_react-compiler_directives_use-memo.md-2",
+      "react_reference_react-compiler_directives_use-no-memo.md-0",
+      "react_reference_react-compiler_directives_use-no-memo.md-1",
+      "react_reference_react-compiler_directives_use-no-memo.md-2",
+      "react_reference_react_PureComponent.md-8"
+    ]
+  },
+  {
+    "question": "在 JSX 里想要把一个对象作为属性值传进去，需要用什么方式包裹这个对象？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_javascript-in-jsx-with-curly-braces.md-5",
+    "pool": [
+      "react_learn_describing-the-ui.md-7",
+      "react_learn_describing-the-ui.md-9",
+      "react_learn_javascript-in-jsx-with-curly-braces.md-5",
+      "react_learn_manipulating-the-dom-with-refs.md-1",
+      "react_learn_rendering-lists.md-8",
+      "react_learn_rendering-lists.md-12",
+      "react_learn_updating-objects-in-state.md-28",
+      "react_learn_writing-markup-with-jsx.md-5",
+      "react_reference_react-dom_components.md-4",
+      "vue_guide_extras_render-function.md-16"
+    ]
+  },
+  {
+    "question": "在 React 中给元素添加内联样式时，应该向哪个属性传入一个对象？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_javascript-in-jsx-with-curly-braces.md-5",
+    "pool": [
+      "react_learn_javascript-in-jsx-with-curly-braces.md-5",
+      "react_learn_typescript.md-19",
+      "react_reference_react-dom_components_script.md-0",
+      "react_reference_react-dom_components_style.md-0",
+      "react_reference_react-dom_components_style.md-2",
+      "react_reference_react-dom_components_style.md-3",
+      "vue_guide_essentials_class-and-style.md-5"
+    ]
+  },
+  {
+    "question": "当 InspirationGenerator 以 children 方式接收 Copyright 时，为什么说这两个组件之间并不存在直接的导入或调用关系？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_rsc_use-client.md-8",
+    "pool": [
+      "react_learn_responding-to-events.md-17",
+      "react_learn_understanding-your-ui-as-a-tree.md-5",
+      "react_learn_understanding-your-ui-as-a-tree.md-6",
+      "react_reference_react_Children.md-24",
+      "react_reference_rsc_use-client.md-6",
+      "react_reference_rsc_use-client.md-7",
+      "react_reference_rsc_use-client.md-8"
+    ]
+  },
+  {
+    "question": "在 React 中，用什么指令来标记客户端组件，从而区别于默认的服务器组件？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_rsc_use-client.md-8",
+    "pool": [
+      "react_reference_react.md-1",
+      "react_reference_rsc_use-client.md-0",
+      "react_reference_rsc_use-client.md-2",
+      "react_reference_rsc_use-client.md-4",
+      "react_reference_rsc_use-client.md-8",
+      "react_reference_rsc_use-client.md-15",
+      "react_reference_rsc_use-server.md-0"
+    ]
+  },
+  {
+    "question": "在 React 中调用 createContext 时传入一个参数作为默认值，这样做有什么好处？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_useContext.md-11",
+    "pool": [
+      "react_learn_passing-data-deeply-with-context.md-6",
+      "react_learn_passing-data-deeply-with-context.md-10",
+      "react_learn_typescript.md-12",
+      "react_reference_react-compiler_compiling-libraries.md-0",
+      "react_reference_react_createContext.md-1",
+      "react_reference_react_createContext.md-4",
+      "react_reference_react_useContext.md-17",
+      "react_reference_react_useContext.md-21"
+    ]
+  },
+  {
+    "question": "例子中 ThemeContext 的默认主题值是什么？",
+    "category": "数字精确",
+    "from_chunk": "react_reference_react_useContext.md-11",
+    "pool": [
+      "react_learn_passing-data-deeply-with-context.md-6",
+      "react_learn_typescript.md-11",
+      "react_reference_react_createContext.md-5",
+      "react_reference_react_useContext.md-11",
+      "react_reference_react_useContext.md-14",
+      "vue_guide_extras_reactivity-in-dep.md-0",
+      "vue_guide_extras_reactivity-in-depth.md-0"
+    ]
+  },
+  {
+    "question": "为什么说污点标记不能作为唯一的安全保障？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_experimental_taintObjectReference.md-3",
+    "pool": [
+      "react_learn_rendering-lists.md-11",
+      "react_reference_react-dom_components_common.md-50",
+      "react_reference_react_experimental_taintObjectReference.md-3",
+      "react_reference_react_experimental_taintUniqueValue.md-2",
+      "react_reference_react_experimental_taintUniqueValue.md-5",
+      "react_reference_react_experimental_taintUniqueValue.md-6",
+      "vue_guide_best-practices_security.md-6"
+    ]
+  },
+  {
+    "question": "React 中用于污染用户对象的实验性 API 叫什么名字？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react_experimental_taintObjectReference.md-3",
+    "pool": [
+      "react_learn_understanding-your-ui-as-a-tree.md-3",
+      "react_reference_react-dom.md-2",
+      "react_reference_react_act.md-0",
+      "react_reference_react_experimental_taintObjectReference.md-0",
+      "react_reference_react_experimental_taintObjectReference.md-2",
+      "react_reference_react_experimental_taintObjectReference.md-3",
+      "react_reference_react_experimental_taintUniqueValue.md-0",
+      "react_reference_rsc_use-server.md-2"
+    ]
+  },
+  {
+    "question": "在 React 中，如果想让某个 option 呈现不可用且变暗的外观，应该设置哪个属性？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-dom_components_option.md-1",
+    "pool": [
+      "react_learn_referencing-values-with-refs.md-11",
+      "react_learn_referencing-values-with-refs.md-12",
+      "react_learn_removing-effect-dependencies.md-14",
+      "react_learn_render-and-commit.md-4",
+      "react_reference_react-dom_components_common.md-3",
+      "react_reference_react-dom_components_option.md-1",
+      "react_reference_react-dom_components_style.md-2",
+      "react_reference_react-dom_server_renderToPipeableStream.md-23",
+      "react_reference_react_useRef.md-1"
+    ]
+  },
+  {
+    "question": "当 option 元素没有显式指定 label 时，它的含义文字从哪里获取？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react-dom_components_option.md-1",
+    "pool": [
+      "react_learn_lifecycle-of-reactive-effects.md-23",
+      "react_learn_passing-data-deeply-with-context.md-10",
+      "react_learn_sharing-state-between-components.md-14",
+      "react_reference_react-dom_components_option.md-1",
+      "react_reference_react-dom_components_select.md-1",
+      "react_reference_react_Fragment.md-11",
+      "vue_guide_best-practices_accessibility.md-4",
+      "vue_guide_best-practices_accessibility.md-6",
+      "vue_guide_components_attrs.md-4"
+    ]
+  },
+  {
+    "question": "React 编译器要如何配置才能只对加了标记的函数进行编译，实现渐进式迁移？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react-compiler_compilationMode.md-3",
+    "pool": [
+      "react_learn_react-compiler.md-0",
+      "react_learn_react-compiler_incremental-adoption.md-0",
+      "react_learn_react-compiler_incremental-adoption.md-1",
+      "react_learn_react-compiler_installation.md-9",
+      "react_learn_react-compiler_introduction.md-3",
+      "react_learn_react-compiler_introduction.md-9",
+      "react_reference_react-compiler_compiling-libraries.md-0",
+      "react_reference_react-compiler_configuration.md-0",
+      "react_reference_react-compiler_directives_use-memo.md-3"
+    ]
+  },
+  {
+    "question": "当项目使用 Flow 类型系统而非 TypeScript 时，编译器的 compilationMode 应该设置成什么值？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-compiler_compilationMode.md-3",
+    "pool": [
+      "react_reference_eslint-plugin-react-hooks_lints_config.md-0",
+      "react_reference_react-compiler_compilationMode.md-0",
+      "react_reference_react-compiler_compilationMode.md-1",
+      "react_reference_react-compiler_compilationMode.md-3",
+      "react_reference_react-compiler_panicThreshold.md-1",
+      "react_reference_react_useDeferredValue.md-15",
+      "vue_guide_typescript_overview.md-0",
+      "vue_guide_typescript_overview.md-4"
+    ]
+  },
+  {
+    "question": "React 应用中，哪一类组件通常位于渲染树底部、没有子组件且会频繁重新渲染？",
+    "category": "概念术语",
+    "from_chunk": "react_learn_understanding-your-ui-as-a-tree.md-4",
+    "pool": [
+      "react_learn_describing-the-ui.md-14",
+      "react_learn_understanding-your-ui-as-a-tree.md-1",
+      "react_learn_understanding-your-ui-as-a-tree.md-2",
+      "react_learn_understanding-your-ui-as-a-tree.md-4",
+      "react_learn_understanding-your-ui-as-a-tree.md-5",
+      "react_learn_understanding-your-ui-as-a-tree.md-7",
+      "react_reference_react_memo.md-21",
+      "vue_guide_scaling-up_testing.md-3"
+    ]
+  },
+  {
+    "question": "示例里 Copyright 组件接收的 year 属性值是多少？",
+    "category": "数字精确",
+    "from_chunk": "react_learn_understanding-your-ui-as-a-tree.md-4",
+    "pool": [
+      "react_learn_understanding-your-ui-as-a-tree.md-2",
+      "react_learn_understanding-your-ui-as-a-tree.md-4",
+      "react_reference_react-dom_components_input.md-27",
+      "react_reference_react-dom_components_option.md-2",
+      "react_reference_react-dom_components_select.md-2",
+      "react_reference_react-dom_components_textarea.md-1",
+      "react_reference_react-dom_components_textarea.md-16",
+      "react_reference_rsc_use-client.md-3",
+      "react_reference_rsc_use-client.md-7",
+      "react_reference_rsc_use-client.md-8"
+    ]
+  },
+  {
+    "question": "在响应式变量作为参数传入函数时，为什么会出现响应性丢失的情况？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_extras_reactivity-transfor.md-5",
+    "pool": [
+      "vue_api_composition-api-setup.md-1",
+      "vue_api_options-composition.md-1",
+      "vue_guide_essentials_reactivity-fundamentals.md-14",
+      "vue_guide_extras_reactivity-transfor.md-5",
+      "vue_guide_extras_reactivity-transfor.md-6",
+      "vue_guide_extras_reactivity-transform.md-1",
+      "vue_guide_extras_reactivity-transform.md-5",
+      "vue_guide_extras_reactivity-transform.md-6"
+    ]
+  },
+  {
+    "question": "watchEffect 中打印的 props 的 count 属性默认值是多少？",
+    "category": "数字精确",
+    "from_chunk": "vue_guide_extras_reactivity-transfor.md-5",
+    "pool": [
+      "vue_api_options-state.md-4",
+      "vue_api_sfc-script-setup.md-7",
+      "vue_api_sfc-script-setup.md-8",
+      "vue_guide_components_props.md-2",
+      "vue_guide_extras_reactivity-in-dep.md-7",
+      "vue_guide_extras_reactivity-in-depth.md-7",
+      "vue_guide_extras_reactivity-transfor.md-4",
+      "vue_guide_extras_reactivity-transform.md-4"
+    ]
+  },
+  {
+    "question": "React 中哪个 Hook 可以用来限制 ref 暴露给父组件的功能范围？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_manipulating-the-dom-with-refs.md-15",
+    "pool": [
+      "react_learn_manipulating-the-dom-with-refs.md-15",
+      "react_learn_state-a-components-memory.md-5",
+      "react_learn_state-a-components-memory.md-30",
+      "react_reference_react.md-2",
+      "react_reference_react_forwardRef.md-0",
+      "react_reference_react_forwardRef.md-2",
+      "react_reference_react_forwardRef.md-3",
+      "react_reference_react_useImperativeHandle.md-0",
+      "react_reference_rules.md-2",
+      "react_reference_rules_react-calls-components-and-hooks.md-1"
+    ]
+  },
+  {
+    "question": "在 React 里，如果不想让父组件通过 ref 完全访问子组件的 DOM 元素，应该采用什么方式？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_manipulating-the-dom-with-refs.md-15",
+    "pool": [
+      "react_learn_escape-hatches.md-0",
+      "react_learn_manipulating-the-dom-with-refs.md-8",
+      "react_learn_manipulating-the-dom-with-refs.md-17",
+      "react_learn_manipulating-the-dom-with-refs.md-26",
+      "react_learn_preserving-and-resetting-state.md-34",
+      "react_reference_react-dom_createPortal.md-1",
+      "react_reference_react_useImperativeHandle.md-2",
+      "vue_api_built-in-special-attributes.md-1",
+      "vue_guide_essentials_template-refs.md-4"
+    ]
+  },
+  {
+    "question": "在 Messenger 组件里，哪个 state 变量用来记录当前选中的联系人？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_managing-state.md-12",
+    "pool": [
+      "react_learn_choosing-the-state-structure.md-1",
+      "react_learn_choosing-the-state-structure.md-4",
+      "react_learn_choosing-the-state-structure.md-15",
+      "react_learn_extracting-state-logic-into-a-reducer.md-27",
+      "react_learn_preserving-and-resetting-state.md-33",
+      "react_learn_reacting-to-input-with-state.md-14",
+      "react_learn_state-a-components-memory.md-10",
+      "react_learn_state-a-components-memory.md-30",
+      "react_reference_react_createElement.md-6"
+    ]
+  },
+  {
+    "question": "当用户在联系人列表中点击某个联系人时，代码是如何把选中结果传递给 Chat 组件的？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_managing-state.md-12",
+    "pool": [
+      "react_learn_preserving-and-resetting-state.md-32",
+      "react_learn_reusing-logic-with-custom-hooks.md-31",
+      "react_learn_synchronizing-with-effects.md-0",
+      "react_learn_you-might-not-need-an-effect.md-1",
+      "react_reference_react-dom_hooks_useFormStatus.md-5",
+      "react_reference_react_useCallback.md-26",
+      "react_reference_react_useDeferredValue.md-9",
+      "react_reference_react_useRef.md-12",
+      "vue_guide_scaling-up_testing.md-20"
+    ]
+  },
+  {
+    "question": "在 JSX 中，为什么不能直接返回多个并列的标签，而必须用父元素或 Fragment 包起来？",
+    "category": "概念术语",
+    "from_chunk": "react_learn_writing-markup-with-jsx.md-5",
+    "pool": [
+      "react_learn_rendering-lists.md-10",
+      "react_learn_tutorial-tic-tac-toe.md-13",
+      "react_learn_writing-markup-with-jsx.md-4",
+      "react_learn_writing-markup-with-jsx.md-5",
+      "react_reference_react_Component.md-51",
+      "react_reference_react_createElement.md-6",
+      "react_reference_react_Fragment.md-1",
+      "react_reference_react_Fragment.md-7"
+    ]
+  },
+  {
+    "question": "JSX 里像 img 这种没有子内容的标签，正确的书写格式是怎样的？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_writing-markup-with-jsx.md-5",
+    "pool": [
+      "react_learn_describing-the-ui.md-5",
+      "react_learn_writing-markup-with-jsx.md-0",
+      "react_learn_writing-markup-with-jsx.md-5",
+      "react_learn_writing-markup-with-jsx.md-7",
+      "react_learn_your-first-component.md-3",
+      "react_reference_react-dom_components_common.md-43",
+      "react_reference_react-dom_components_title.md-1",
+      "vue_guide_essentials_component-basics.md-12",
+      "vue_guide_essentials_component-basics.md-13"
+    ]
+  },
+  {
+    "question": "在 React 里，想让组件跨层级直接获取共享信息而不用一层层手动传参，应该怎么建立这种机制？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_createContext.md-4",
+    "pool": [
+      "react_learn_escape-hatches.md-0",
+      "react_learn_passing-data-deeply-with-context.md-0",
+      "react_learn_passing-data-deeply-with-context.md-1",
+      "react_learn_synchronizing-with-effects.md-33",
+      "react_learn_synchronizing-with-effects.md-34",
+      "react_learn_you-might-not-need-an-effect.md-0",
+      "react_reference_rules_react-calls-components-and-hooks.md-1",
+      "vue_guide_scaling-up_ssr.md-13",
+      "vue_guide_scaling-up_state-managemen.md-1",
+      "vue_guide_scaling-up_state-management.md-1"
+    ]
+  },
+  {
+    "question": "React 中创建上下文需要调用哪个 API，它返回的是什么？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react_createContext.md-4",
+    "pool": [
+      "react_learn_state-a-components-memory.md-10",
+      "react_reference_react-dom_client_createRoot.md-1",
+      "react_reference_react-dom_components_common.md-26",
+      "react_reference_react_cache.md-13",
+      "react_reference_react_createContext.md-0",
+      "react_reference_react_createContext.md-4",
+      "react_reference_react_createContext.md-5",
+      "react_reference_react_createContext.md-6",
+      "react_reference_react_createElement.md-7"
+    ]
+  },
+  {
+    "question": "如何让 MarkdownPreview 组件在真正需要渲染时才进行代码加载？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_lazy.md-3",
+    "pool": [
+      "react_reference_react-dom_preload.md-3",
+      "react_reference_react-dom_preloadModule.md-3",
+      "react_reference_react_act.md-3",
+      "react_reference_react_lazy.md-0",
+      "react_reference_react_lazy.md-2",
+      "react_reference_react_lazy.md-3",
+      "react_reference_react_lazy.md-5",
+      "vue_guide_best-practices_performance.md-4"
+    ]
+  },
+  {
+    "question": "示例中通过哪个 React API 实现了组件的按需延迟加载？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react_lazy.md-3",
+    "pool": [
+      "react_learn_build-a-react-app-from-scratch.md-5",
+      "react_learn_state-as-a-snapshot.md-10",
+      "react_learn_synchronizing-with-effects.md-22",
+      "react_reference_react-dom_preload.md-4",
+      "react_reference_react-dom_static_prerenderToNodeStream.md-5",
+      "react_reference_react_Activity.md-11",
+      "react_reference_react_apis.md-0",
+      "react_reference_react_lazy.md-0",
+      "react_reference_react_lazy.md-2",
+      "vue_guide_components_async.md-3"
+    ]
+  },
+  {
+    "question": "Vue 组件里用什么方式监听路由参数 id 的变化来触发数据重新获取？",
+    "category": "命名精确",
+    "from_chunk": "vue_router_zh_guide_advanced_data-fetching.md-3",
+    "pool": [
+      "react_learn_build-a-react-app-from-scratch.md-4",
+      "react_reference_react_Component.md-41",
+      "vue_guide_essentials_watchers.md-15",
+      "vue_guide_scaling-up_routing.md-0",
+      "vue_router_zh_guide_advanced_data-fetching.md-0",
+      "vue_router_zh_guide_advanced_data-fetching.md-2",
+      "vue_router_zh_guide_advanced_data-fetching.md-4",
+      "vue_router_zh_guide_advanced_navigation-guards.md-0",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-2"
+    ]
+  },
+  {
+    "question": "这个组件在初始状态下把 loading、post 和 error 分别设为了什么值？",
+    "category": "语义改写",
+    "from_chunk": "vue_router_zh_guide_advanced_data-fetching.md-3",
+    "pool": [
+      "react_learn_adding-interactivity.md-6",
+      "react_learn_separating-events-from-effects.md-28",
+      "react_reference_react-dom_server_renderToPipeableStream.md-23",
+      "react_reference_react-dom_server_renderToReadableStream.md-24",
+      "react_reference_react_createContext.md-5",
+      "react_reference_react_useTransition.md-34",
+      "vue_router_zh_guide_advanced_data-fetching.md-1",
+      "vue_router_zh_guide_advanced_data-fetching.md-2",
+      "vue_router_zh_guide_advanced_data-fetching.md-3",
+      "vue_router_zh_guide_advanced_data-fetching.md-4"
+    ]
+  },
+  {
+    "question": "React 的严格模式在开发时对组件函数会做什么特殊处理？",
+    "category": "概念术语",
+    "from_chunk": "react_learn_keeping-components-pure.md-6",
+    "pool": [
+      "react_learn_keeping-components-pure.md-6",
+      "react_learn_synchronizing-with-effects.md-0",
+      "react_learn_synchronizing-with-effects.md-27",
+      "react_reference_react_StrictMode.md-2",
+      "react_reference_react_StrictMode.md-3",
+      "react_reference_react_StrictMode.md-5",
+      "react_reference_react_StrictMode.md-12"
+    ]
+  },
+  {
+    "question": "如何启用 React 的严格模式，且它在生产环境中是否会影响性能？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_keeping-components-pure.md-6",
+    "pool": [
+      "react_learn_keeping-components-pure.md-6",
+      "react_learn_render-and-commit.md-4",
+      "react_learn_synchronizing-with-effects.md-27",
+      "react_learn_synchronizing-with-effects.md-36",
+      "react_reference_react_Profiler.md-3",
+      "react_reference_react_StrictMode.md-2",
+      "react_reference_react_StrictMode.md-3",
+      "react_reference_react_StrictMode.md-12"
+    ]
+  },
+  {
+    "question": "在 React 中，什么情况下才需要显式导入 Fragment 而不是使用简写语法？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react_Fragment.md-9",
+    "pool": [
+      "react_learn_rendering-lists.md-10",
+      "react_learn_reusing-logic-with-custom-hooks.md-55",
+      "react_reference_react_Fragment.md-1",
+      "react_reference_react_Fragment.md-9",
+      "react_reference_react_Fragment.md-10",
+      "react_reference_react_Fragment.md-11",
+      "react_reference_react_memo.md-3"
+    ]
+  },
+  {
+    "question": "示例中从 React 导入的 Fragment 是通过哪个导入语句实现的？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react_Fragment.md-9",
+    "pool": [
+      "react_learn_describing-the-ui.md-2",
+      "react_learn_importing-and-exporting-components.md-0",
+      "react_learn_importing-and-exporting-components.md-3",
+      "react_learn_importing-and-exporting-components.md-7",
+      "react_learn_thinking-in-react.md-10",
+      "react_reference_react_Fragment.md-6",
+      "react_reference_react_Fragment.md-7",
+      "react_reference_react_Fragment.md-9",
+      "react_reference_react_Fragment.md-11"
+    ]
+  },
+  {
+    "question": "在开发环境下，Vue 组件调试钩子接收到的调试事件对象里，type 字段可以取哪些值？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_extras_reactivity-in-dep.md-11",
+    "pool": [
+      "react_learn_synchronizing-with-effects.md-36",
+      "react_reference_react_Component.md-9",
+      "vue_api_composition-api-lifecycle.md-7",
+      "vue_guide_extras_reactivity-in-dep.md-11",
+      "vue_guide_extras_reactivity-in-dep.md-12",
+      "vue_guide_extras_reactivity-in-depth.md-11",
+      "vue_guide_extras_reactivity-in-depth.md-12",
+      "vue_guide_scaling-up_testing.md-5"
+    ]
+  },
+  {
+    "question": "调用 computed() 时传入的第二个参数对象中，onTrack 和 onTrigger 分别在什么时机被触发？",
+    "category": "语义改写",
+    "from_chunk": "vue_guide_extras_reactivity-in-dep.md-11",
+    "pool": [
+      "react_reference_react-dom_components_common.md-7",
+      "vue_api_reactivity-core.md-13",
+      "vue_guide_extras_reactivity-in-dep.md-11",
+      "vue_guide_extras_reactivity-in-dep.md-12",
+      "vue_guide_extras_reactivity-in-depth.md-11",
+      "vue_guide_extras_reactivity-in-depth.md-12"
+    ]
+  },
+  {
+    "question": "在 React 中，createElement 的第三个及后续参数代表什么？它们是否必须提供？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_createElement.md-4",
+    "pool": [
+      "react_learn_reacting-to-input-with-state.md-14",
+      "react_reference_react_Children.md-12",
+      "react_reference_react_createElement.md-0",
+      "react_reference_react_createElement.md-2",
+      "react_reference_react_createElement.md-3",
+      "react_reference_react_useImperativeHandle.md-1",
+      "react_reference_react_useImperativeHandle.md-2",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-0",
+      "vue_guide_components_provide-injec.md-11"
+    ]
+  },
+  {
+    "question": "如果想用 createElement 渲染自定义的 React 组件而不是像 'h1' 这样的原生标签，type 参数应该传什么？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react_createElement.md-4",
+    "pool": [
+      "react_learn_describing-the-ui.md-9",
+      "react_reference_react-dom_components_title.md-0",
+      "react_reference_react-dom_server_renderToReadableStream.md-2",
+      "react_reference_react_createElement.md-0",
+      "react_reference_react_createElement.md-2",
+      "react_reference_react_createElement.md-3",
+      "react_reference_react_createElement.md-4",
+      "react_reference_react_createElement.md-7",
+      "react_reference_react_isValidElement.md-4"
+    ]
+  },
+  {
+    "question": "这段代码里，当访问的路径在路由表中找不到对应组件时，会默认渲染哪个组件？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_scaling-up_routing.md-2",
+    "pool": [
+      "react_learn_state-a-components-memory.md-10",
+      "react_learn_thinking-in-react.md-12",
+      "react_reference_react-compiler_compiling-libraries.md-0",
+      "vue_api_options-misc.md-1",
+      "vue_router_zh_guide_advanced_data-fetching.md-6",
+      "vue_router_zh_guide_advanced_router-view-slot.md-3",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-0",
+      "vue_router_zh_guide_essentials_nested-routes.md-2",
+      "vue_router_zh_guide_essentials_nested-routes.md-4",
+      "vue_router_zh_guide_essentials_redirect-and-alias.md-2"
+    ]
+  },
+  {
+    "question": "这个简易路由实现是通过监听浏览器的哪个事件来感知 URL 变化的？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_scaling-up_routing.md-2",
+    "pool": [
+      "react_learn_you-might-not-need-an-effect.md-34",
+      "vue_guide_scaling-up_routing.md-0",
+      "vue_guide_scaling-up_routing.md-1",
+      "vue_router_zh_guide_advanced_data-fetching.md-6",
+      "vue_router_zh_guide_advanced_router-view-slot.md-3",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-2",
+      "vue_router_zh_guide_essentials_history-mode.md-9",
+      "vue_router_zh_guide_essentials_navigation.md-0"
+    ]
+  },
+  {
+    "question": "React 组件要满足什么条件才能被认为是幂等的？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_rules.md-1",
+    "pool": [
+      "react_learn_describing-the-ui.md-0",
+      "react_learn_keeping-components-pure.md-9",
+      "react_learn_synchronizing-with-effects.md-21",
+      "react_learn_understanding-your-ui-as-a-tree.md-0",
+      "react_learn_your-first-component.md-8",
+      "react_reference_react-dom_components_link.md-4",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-0",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-4",
+      "vue_router_zh_guide_essentials_active-links.md-0"
+    ]
+  },
+  {
+    "question": "为什么副作用不应该在渲染过程中执行？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_rules.md-1",
+    "pool": [
+      "react_learn_keeping-components-pure.md-8",
+      "react_learn_responding-to-events.md-19",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-0",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-1",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-6",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-7",
+      "vue_guide_essentials_watchers.md-11"
+    ]
+  },
+  {
+    "question": "在 React 中，把选中的对象直接存进 state 会带来什么问题，文中建议改成什么做法？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_choosing-the-state-structure.md-24",
+    "pool": [
+      "react_learn_preserving-and-resetting-state.md-34",
+      "react_learn_updating-arrays-in-state.md-18",
+      "react_learn_updating-arrays-in-state.md-31",
+      "react_learn_updating-objects-in-state.md-0",
+      "react_learn_updating-objects-in-state.md-27",
+      "react_learn_updating-objects-in-state.md-28",
+      "react_learn_updating-objects-in-state.md-29"
+    ]
+  },
+  {
+    "question": "按照片段的建议，选中项的状态应该保存为哪个字段？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_choosing-the-state-structure.md-24",
+    "pool": [
+      "react_learn_choosing-the-state-structure.md-4",
+      "react_learn_state-a-components-memory.md-10",
+      "react_reference_eslint-plugin-react-hooks_lints_config.md-2",
+      "react_reference_react-dom_components_input.md-24",
+      "react_reference_react-dom_components_textarea.md-1",
+      "react_reference_react_Suspense.md-19",
+      "react_reference_react_useEffect.md-51",
+      "react_reference_react_useInsertionEffect.md-4",
+      "react_reference_react_useMemo.md-34",
+      "vue_router_zh_guide_advanced_meta.md-1"
+    ]
+  },
+  {
+    "question": "为什么在渲染 form 元素的同一个组件里调用 useFormStatus 时，pending 状态始终为 false？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react-dom_hooks_useFormStatus.md-4",
+    "pool": [
+      "react_learn_conditional-rendering.md-7",
+      "react_reference_react-dom_hooks_useFormStatus.md-1",
+      "react_reference_react-dom_hooks_useFormStatus.md-2",
+      "react_reference_react-dom_hooks_useFormStatus.md-4",
+      "react_reference_react-dom_hooks_useFormStatus.md-5",
+      "react_reference_react-dom_hooks_useFormStatus.md-7",
+      "react_reference_react_Component.md-13",
+      "react_reference_react_useTransition.md-27"
+    ]
+  },
+  {
+    "question": "useFormStatus 这个 Hook 只能获取哪一层级表单的状态信息？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react-dom_hooks_useFormStatus.md-4",
+    "pool": [
+      "react_learn_state-a-components-memory.md-5",
+      "react_reference_react-dom_hooks_useFormStatus.md-0",
+      "react_reference_react-dom_hooks_useFormStatus.md-1",
+      "react_reference_react-dom_hooks_useFormStatus.md-2",
+      "react_reference_react-dom_hooks_useFormStatus.md-4",
+      "react_reference_react-dom_hooks_useFormStatus.md-5",
+      "react_reference_react-dom_hooks_useFormStatus.md-7"
+    ]
+  },
+  {
+    "question": "vue/server-renderer 中用于把应用或 VNode 渲染成 ReadableStream 的函数叫什么名字？",
+    "category": "命名精确",
+    "from_chunk": "vue_api_ssr.md-3",
+    "pool": [
+      "react_reference_react-dom_server_renderToReadableStream.md-1",
+      "vue_api_ssr.md-0",
+      "vue_api_ssr.md-1",
+      "vue_api_ssr.md-2",
+      "vue_api_ssr.md-3",
+      "vue_api_ssr.md-4",
+      "vue_guide_scaling-up_ssr.md-5"
+    ]
+  },
+  {
+    "question": "如果运行环境没有全局暴露 ReadableStream 构造函数，应该改用哪个 API 来渲染并输出到 Web WritableStream？",
+    "category": "语义改写",
+    "from_chunk": "vue_api_ssr.md-3",
+    "pool": [
+      "react_reference_react-dom_server_renderToReadableStream.md-0",
+      "react_reference_react-dom_server_renderToReadableStream.md-1",
+      "react_reference_react-dom_server_renderToReadableStream.md-4",
+      "react_reference_react-dom_server_resume.md-0",
+      "react_reference_react-dom_static_prerenderToNodeStream.md-0",
+      "react_reference_react_useEffect.md-53",
+      "react_reference_rsc_server-components.md-0",
+      "vue_api_ssr.md-3",
+      "vue_api_ssr.md-4"
+    ]
+  },
+  {
+    "question": "这段代码里，用来表示打印状态的那个 React state 变量叫什么名字？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-dom_flushSync.md-4",
+    "pool": [
+      "react_learn_adding-interactivity.md-6",
+      "react_learn_choosing-the-state-structure.md-7",
+      "react_learn_managing-state.md-9",
+      "react_learn_reacting-to-input-with-state.md-6",
+      "react_learn_reacting-to-input-with-state.md-12",
+      "react_learn_referencing-values-with-refs.md-2",
+      "react_learn_separating-events-from-effects.md-37",
+      "react_learn_state-a-components-memory.md-10",
+      "react_reference_react-dom_flushSync.md-3",
+      "react_reference_react_useState.md-5"
+    ]
+  },
+  {
+    "question": "当打印即将开始时，代码通过哪个事件监听器把打印状态设为 true？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-dom_flushSync.md-4",
+    "pool": [
+      "react_learn_extracting-state-logic-into-a-reducer.md-20",
+      "react_learn_extracting-state-logic-into-a-reducer.md-21",
+      "react_learn_removing-effect-dependencies.md-15",
+      "react_learn_sharing-state-between-components.md-10",
+      "react_learn_you-might-not-need-an-effect.md-29",
+      "react_reference_react-dom_flushSync.md-3",
+      "react_reference_react-dom_flushSync.md-5",
+      "vue_api_composition-api-lifecycle.md-3",
+      "vue_api_options-state.md-13",
+      "vue_guide_essentials_watchers.md-8"
+    ]
+  },
+  {
+    "question": "React 中哪个内置组件能够用来隐藏并恢复其子节点的 UI 和内部状态？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react_components.md-0",
+    "pool": [
+      "react_reference_react_Activity.md-0",
+      "react_reference_react_Activity.md-1",
+      "react_reference_react_Activity.md-2",
+      "react_reference_react_Activity.md-6",
+      "react_reference_react_Activity.md-10",
+      "react_reference_react_Activity.md-30",
+      "react_reference_react_components.md-0"
+    ]
+  },
+  {
+    "question": "在 React 里，想以编程方式测量组件树渲染性能，应该使用哪个内置组件？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react_components.md-0",
+    "pool": [
+      "react_learn_describing-the-ui.md-14",
+      "react_learn_rendering-lists.md-0",
+      "react_learn_understanding-your-ui-as-a-tree.md-1",
+      "react_reference_react-dom_components_title.md-0",
+      "react_reference_react_components.md-0",
+      "react_reference_react_Profiler.md-0",
+      "react_reference_react_Profiler.md-2",
+      "react_reference_react_Profiler.md-3"
+    ]
+  },
+  {
+    "question": "在组合式 API 中，想让父组件通过 v-model 控制某个 prop，应该调用哪个函数来声明它？",
+    "category": "命名精确",
+    "from_chunk": "vue_api_sfc-script-setup.md-10",
+    "pool": [
+      "vue_api_sfc-script-setup.md-9",
+      "vue_api_sfc-script-setup.md-10",
+      "vue_api_sfc-script-setup.md-11",
+      "vue_guide_components_props.md-11",
+      "vue_guide_components_v-mode.md-2",
+      "vue_guide_components_v-model.md-0",
+      "vue_guide_components_v-model.md-2"
+    ]
+  },
+  {
+    "question": "defineModel 声明 count 这个 prop 时，可以怎样指定它的类型和默认值？",
+    "category": "语义改写",
+    "from_chunk": "vue_api_sfc-script-setup.md-10",
+    "pool": [
+      "vue_api_sfc-script-setup.md-6",
+      "vue_api_sfc-script-setup.md-9",
+      "vue_api_sfc-script-setup.md-10",
+      "vue_guide_components_props.md-15",
+      "vue_guide_components_props.md-16",
+      "vue_guide_components_v-mode.md-2",
+      "vue_guide_components_v-model.md-2",
+      "vue_guide_typescript_composition-api.md-2"
+    ]
+  },
+  {
+    "question": "在 Vue 中，当插槽内容需要同时访问父组件和子组件的数据时，应该使用哪种插槽机制？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_components_slots.md-6",
+    "pool": [
+      "vue_guide_built-ins_transition.md-7",
+      "vue_guide_components_slots.md-0",
+      "vue_guide_components_slots.md-1",
+      "vue_guide_components_slots.md-2",
+      "vue_guide_components_slots.md-3",
+      "vue_guide_components_slots.md-6",
+      "vue_guide_components_slots.md-9"
+    ]
+  },
+  {
+    "question": "子组件可以通过什么方式向插槽出口传递数据，让父级模板用 v-slot 接收？",
+    "category": "语义改写",
+    "from_chunk": "vue_guide_components_slots.md-6",
+    "pool": [
+      "vue_api_built-in-special-elements.md-2",
+      "vue_guide_components_slots.md-0",
+      "vue_guide_components_slots.md-3",
+      "vue_guide_components_slots.md-6",
+      "vue_guide_components_slots.md-7",
+      "vue_guide_components_slots.md-9"
+    ]
+  },
+  {
+    "question": "在 React 中，如何通过标签大小写来区分是使用 HTML 原生标签还是自定义组件？",
+    "category": "概念术语",
+    "from_chunk": "react_learn_your-first-component.md-5",
+    "pool": [
+      "react_learn_describing-the-ui.md-3",
+      "react_learn_your-first-component.md-0",
+      "react_learn_your-first-component.md-1",
+      "react_learn_your-first-component.md-5",
+      "vue_api_application.md-12",
+      "vue_guide_essentials_component-basics.md-3",
+      "vue_guide_essentials_component-basics.md-12",
+      "vue_guide_essentials_component-basics.md-13",
+      "vue_guide_extras_web-components.md-0"
+    ]
+  },
+  {
+    "question": "示例代码里被重复渲染三次的组件叫什么名字？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_your-first-component.md-5",
+    "pool": [
+      "react_learn_preserving-and-resetting-state.md-16",
+      "react_learn_queueing-a-series-of-state-updates.md-0",
+      "react_learn_render-and-commit.md-0",
+      "react_learn_reusing-logic-with-custom-hooks.md-8",
+      "react_learn_state-as-a-snapshot.md-4",
+      "react_learn_you-might-not-need-an-effect.md-24",
+      "react_reference_react_act.md-3",
+      "react_reference_react_Component.md-35",
+      "react_reference_react_useMemo.md-10",
+      "vue_guide_extras_render-function.md-4"
+    ]
+  },
+  {
+    "question": "Vue 中哪个内置组件可以把模板片段传送到指定的 DOM 节点，从而避免受父元素样式和层级影响？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_built-ins_telepor.md-2",
+    "pool": [
+      "react_reference_react-dom_createPortal.md-5",
+      "vue_api_built-in-special-elements.md-3",
+      "vue_guide_built-ins_telepor.md-2",
+      "vue_guide_built-ins_teleport.md-2",
+      "vue_guide_components_slots.md-0",
+      "vue_guide_essentials_template-refs.md-0",
+      "vue_guide_extras_rendering-mechanis.md-2",
+      "vue_guide_extras_rendering-mechanism.md-2"
+    ]
+  },
+  {
+    "question": "使用 Vue 的 Teleport 时，通过哪个 prop 来指定传送目标，它的取值可以是什么形式？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_built-ins_telepor.md-2",
+    "pool": [
+      "vue_guide_built-ins_telepor.md-2",
+      "vue_guide_built-ins_telepor.md-3",
+      "vue_guide_built-ins_telepor.md-4",
+      "vue_guide_built-ins_teleport.md-2",
+      "vue_guide_built-ins_teleport.md-3",
+      "vue_guide_built-ins_teleport.md-4",
+      "vue_guide_typescript_composition-api.md-1"
+    ]
+  },
+  {
+    "question": "表单里的 input 元素是通过哪两个属性来关联无障碍访问名称和描述信息的？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_best-practices_accessibility.md-8",
+    "pool": [
+      "vue_guide_best-practices_accessibility.md-4",
+      "vue_guide_best-practices_accessibility.md-5",
+      "vue_guide_best-practices_accessibility.md-6",
+      "vue_guide_best-practices_accessibility.md-7",
+      "vue_guide_best-practices_accessibility.md-8",
+      "vue_guide_best-practices_accessibility.md-12",
+      "vue_guide_best-practices_accessibility.md-13"
+    ]
+  },
+  {
+    "question": "为什么不建议在表单中使用占位符文本？",
+    "category": "语义改写",
+    "from_chunk": "vue_guide_best-practices_accessibility.md-8",
+    "pool": [
+      "react_learn_preserving-and-resetting-state.md-35",
+      "react_reference_react-dom_components_textarea.md-3",
+      "react_reference_react-dom_components_textarea.md-7",
+      "react_reference_react-dom_components_textarea.md-13",
+      "react_reference_rsc_use-client.md-1",
+      "vue_api_component-instance.md-1",
+      "vue_guide_best-practices_accessibility.md-8",
+      "vue_guide_best-practices_accessibility.md-9"
+    ]
+  },
+  {
+    "question": "在 React 组件中，ref 的读取和写入操作应该放在哪里才符合规范？",
+    "category": "语义改写",
+    "from_chunk": "react_reference_react_useRef.md-6",
+    "pool": [
+      "react_learn_escape-hatches.md-2",
+      "react_learn_referencing-values-with-refs.md-11",
+      "react_learn_referencing-values-with-refs.md-13",
+      "react_learn_separating-events-from-effects.md-1",
+      "react_reference_react-dom_components_link.md-4",
+      "react_reference_react_useRef.md-5",
+      "react_reference_react_useRef.md-6",
+      "vue_api_built-in-special-attributes.md-1"
+    ]
+  },
+  {
+    "question": "如果确实需要在渲染过程中读取或写入 ref，React 官方建议改用哪种方式？",
+    "category": "概念术语",
+    "from_chunk": "react_reference_react_useRef.md-6",
+    "pool": [
+      "react_learn_referencing-values-with-refs.md-7",
+      "react_learn_referencing-values-with-refs.md-11",
+      "react_learn_referencing-values-with-refs.md-12",
+      "react_learn_referencing-values-with-refs.md-13",
+      "react_learn_render-and-commit.md-4",
+      "react_reference_react_useRef.md-5",
+      "react_reference_react_useRef.md-6",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-2"
+    ]
+  },
+  {
+    "question": "在排查 React 编译器相关问题时，如何临时跳过某个组件的编译？",
+    "category": "命名精确",
+    "from_chunk": "react_learn_react-compiler_debugging.md-2",
+    "pool": [
+      "react_learn_react-compiler_debugging.md-0",
+      "react_learn_react-compiler_debugging.md-1",
+      "react_learn_react-compiler_debugging.md-2",
+      "react_learn_react-compiler_incremental-adoption.md-1",
+      "react_learn_react-compiler_installation.md-9",
+      "react_reference_react-compiler_directives.md-4",
+      "react_reference_react-compiler_directives_use-memo.md-5",
+      "react_reference_react-compiler_directives_use-no-memo.md-1"
+    ]
+  },
+  {
+    "question": "如果移除组件中所有手动的 memoization 后问题依然存在，说明什么？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_react-compiler_debugging.md-2",
+    "pool": [
+      "react_learn_react-compiler_debugging.md-2",
+      "react_learn_react-compiler_introduction.md-0",
+      "react_learn_reacting-to-input-with-state.md-14",
+      "react_reference_react_memo.md-0",
+      "react_reference_react_memo.md-6",
+      "react_reference_react_memo.md-7",
+      "vue_api_built-in-directives.md-12",
+      "vue_guide_extras_web-components.md-5"
+    ]
+  },
+  {
+    "question": "Vue 的浏览器开发者插件能帮开发者做哪些事情？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_scaling-up_tooling.md-4",
+    "pool": [
+      "react_learn_react-compiler_introduction.md-8",
+      "vue_about_faq.md-2",
+      "vue_about_faq.md-5",
+      "vue_guide_best-practices_performance.md-1",
+      "vue_guide_best-practices_security.md-6",
+      "vue_guide_extras_ways-of-using-vue.md-2",
+      "vue_guide_extras_ways-of-using-vue.md-4",
+      "vue_guide_scaling-up_tooling.md-3",
+      "vue_guide_scaling-up_tooling.md-4"
+    ]
+  },
+  {
+    "question": "想在命令行对单文件组件执行类型检查并生成 d.ts 文件，应该用哪个工具？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_scaling-up_tooling.md-4",
+    "pool": [
+      "vue_api_composition-api-setup.md-4",
+      "vue_api_utility-types.md-4",
+      "vue_api_utility-types.md-5",
+      "vue_guide_scaling-up_tooling.md-4",
+      "vue_guide_typescript_options-api.md-8",
+      "vue_guide_typescript_overview.md-0",
+      "vue_guide_typescript_overview.md-1",
+      "vue_guide_typescript_overview.md-5",
+      "vue_guide_typescript_overview.md-7"
+    ]
+  },
+  {
+    "question": "在 Vue Router 中，path 和 params 能同时出现在一个路由对象里吗？",
+    "category": "概念术语",
+    "from_chunk": "vue_router_zh_guide_essentials_navigation.md-3",
+    "pool": [
+      "vue_router_zh_api_interfaces_RouteLocationNormalizedLoaded.md-1",
+      "vue_router_zh_guide_advanced_lazy-loading.md-0",
+      "vue_router_zh_guide_advanced_meta.md-1",
+      "vue_router_zh_guide_advanced_typed-routes.md-2",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-0",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-1",
+      "vue_router_zh_guide_essentials_named-routes.md-0",
+      "vue_router_zh_guide_essentials_navigation.md-3",
+      "vue_router_zh_guide_essentials_nested-routes.md-1"
+    ]
+  },
+  {
+    "question": "用 RouterLink 传参时，如果已经存在对应的命名路由，官方推荐用哪种写法？",
+    "category": "语义改写",
+    "from_chunk": "vue_router_zh_guide_essentials_navigation.md-3",
+    "pool": [
+      "vue_router_zh_guide_advanced_composition-api.md-3",
+      "vue_router_zh_guide_advanced_composition-api.md-4",
+      "vue_router_zh_guide_advanced_router-view-slot.md-3",
+      "vue_router_zh_guide_advanced_typed-routes.md-2",
+      "vue_router_zh_guide_essentials_active-links.md-0",
+      "vue_router_zh_guide_essentials_active-links.md-1",
+      "vue_router_zh_guide_essentials_dynamic-matching.md-1",
+      "vue_router_zh_guide_essentials_named-routes.md-0",
+      "vue_router_zh_guide_essentials_navigation.md-2",
+      "vue_router_zh_guide_essentials_navigation.md-3"
+    ]
+  },
+  {
+    "question": "在浏览器端渲染 React 组件时，应该从哪个模块引入相关接口？",
+    "category": "命名精确",
+    "from_chunk": "react_reference_react-dom_client.md-0",
+    "pool": [
+      "react_learn_describing-the-ui.md-9",
+      "react_learn_state-a-components-memory.md-10",
+      "react_learn_understanding-your-ui-as-a-tree.md-0",
+      "react_reference_react-dom_server_renderToPipeableStream.md-2",
+      "react_reference_react-dom_server_renderToReadableStream.md-2",
+      "react_reference_react-dom_static_prerenderToNodeStream.md-2",
+      "react_reference_rsc_use-client.md-2",
+      "react_reference_rsc_use-client.md-4",
+      "vue_guide_components_slots.md-0",
+      "vue_guide_scaling-up_testing.md-12"
+    ]
+  },
+  {
+    "question": "React 最低支持到哪个版本的 Internet Explorer，旧版本又该如何处理？",
+    "category": "数字精确",
+    "from_chunk": "react_reference_react-dom_client.md-0",
+    "pool": [
+      "react_learn_react-compiler_installation.md-2",
+      "react_learn_react-compiler_installation.md-3",
+      "react_learn_react-compiler_installation.md-9",
+      "react_learn_react-compiler_introduction.md-0",
+      "react_learn_react-developer-tools.md-1",
+      "react_reference_react-compiler_compiling-libraries.md-1",
+      "react_reference_react-compiler_compiling-libraries.md-2",
+      "react_reference_react-dom_client.md-0",
+      "vue_about_faq.md-2"
+    ]
+  },
+  {
+    "question": "在 Vue 里，如果没有使用 <script setup>，要怎么把导入的组件注册到当前组件中才能使用？",
+    "category": "语义改写",
+    "from_chunk": "vue_guide_components_registration.md-2",
+    "pool": [
+      "vue_api_sfc-script-setup.md-19",
+      "vue_api_sfc-spec.md-3",
+      "vue_guide_components_registration.md-0",
+      "vue_guide_components_registration.md-2",
+      "vue_guide_essentials_component-basics.md-2",
+      "vue_guide_essentials_component-basics.md-3",
+      "vue_guide_essentials_lifecycle.md-1",
+      "vue_router_zh_guide_advanced_composition-api.md-0"
+    ]
+  },
+  {
+    "question": "components 选项对象中，属性名和属性值分别代表什么含义？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_components_registration.md-2",
+    "pool": [
+      "react_reference_react-dom_components_option.md-1",
+      "react_reference_react-dom_components_option.md-2",
+      "vue_api_options-composition.md-2",
+      "vue_api_options-misc.md-0",
+      "vue_guide_components_provide-injec.md-5",
+      "vue_guide_components_provide-inject.md-5",
+      "vue_guide_components_registration.md-2",
+      "vue_guide_essentials_reactivity-fundamentals.md-0"
+    ]
+  },
+  {
+    "question": "在 React 的 useEffect 中，返回的那个函数会在什么时机被调用？",
+    "category": "概念术语",
+    "from_chunk": "react_learn_synchronizing-with-effects.md-25",
+    "pool": [
+      "react_learn_queueing-a-series-of-state-updates.md-5",
+      "react_learn_render-and-commit.md-2",
+      "react_learn_reusing-logic-with-custom-hooks.md-0",
+      "react_learn_synchronizing-with-effects.md-25",
+      "react_reference_react-dom_flushSync.md-6",
+      "react_reference_react_useCallback.md-2",
+      "react_reference_react_useImperativeHandle.md-2",
+      "react_reference_react_useMemo.md-2",
+      "react_reference_react_useMemo.md-3",
+      "react_reference_rules_components-and-hooks-must-be-pure.md-7"
+    ]
+  },
+  {
+    "question": "useEffect 里返回的清理函数，在组件被移除时会执行吗？",
+    "category": "语义改写",
+    "from_chunk": "react_learn_synchronizing-with-effects.md-25",
+    "pool": [
+      "react_learn_synchronizing-with-effects.md-3",
+      "react_learn_synchronizing-with-effects.md-25",
+      "react_learn_synchronizing-with-effects.md-41",
+      "react_learn_synchronizing-with-effects.md-47",
+      "react_reference_react_Activity.md-31",
+      "react_reference_react_useEffect.md-6",
+      "react_reference_react_useLayoutEffect.md-3",
+      "vue_router_zh_api_interfaces_Router.md-3"
+    ]
+  },
+  {
+    "question": "在 Vue 中，ref 这个特殊属性是用来做什么的？",
+    "category": "概念术语",
+    "from_chunk": "vue_api_built-in-special-attributes.md-1",
+    "pool": [
+      "react_reference_react_createElement.md-7",
+      "vue_api_reactivity-core.md-8",
+      "vue_guide_essentials_reactivity-fundamentals.md-5",
+      "vue_guide_essentials_reactivity-fundamentals.md-6",
+      "vue_guide_extras_composition-api-faq.md-0",
+      "vue_guide_extras_composition-api-faq.md-7",
+      "vue_guide_extras_reactivity-in-dep.md-9",
+      "vue_guide_extras_reactivity-in-dep.md-14",
+      "vue_guide_extras_reactivity-in-depth.md-14",
+      "vue_guide_extras_web-components.md-5"
+    ]
+  },
+  {
+    "question": "使用选项式 API 时，通过 ref 注册的模板引用会被存放在组件的哪个对象上？",
+    "category": "命名精确",
+    "from_chunk": "vue_api_built-in-special-attributes.md-1",
+    "pool": [
+      "react_reference_react_useRef.md-2",
+      "vue_api_built-in-special-attributes.md-1",
+      "vue_api_composition-api-setup.md-0",
+      "vue_guide_essentials_reactivity-fundamentals.md-5",
+      "vue_guide_essentials_template-refs.md-2",
+      "vue_guide_extras_composition-api-faq.md-7",
+      "vue_guide_extras_render-function.md-19",
+      "vue_guide_extras_render-function.md-20",
+      "vue_guide_typescript_composition-api.md-14"
+    ]
+  },
+  {
+    "question": "在 Vue 中，如何为 TransitionGroup 里移动的元素设置自定义的过渡 class？",
+    "category": "概念术语",
+    "from_chunk": "vue_guide_built-ins_transition-group.md-2",
+    "pool": [
+      "vue_api_built-in-components.md-0",
+      "vue_api_built-in-components.md-3",
+      "vue_guide_built-ins_transition-group.md-0",
+      "vue_guide_built-ins_transition-group.md-2",
+      "vue_guide_built-ins_transition.md-1",
+      "vue_guide_built-ins_transition.md-3",
+      "vue_guide_built-ins_transition.md-6"
+    ]
+  },
+  {
+    "question": "实现渐进延迟列表动画时，需要把元素的索引渲染到哪个 data attribute 上？",
+    "category": "命名精确",
+    "from_chunk": "vue_guide_built-ins_transition-group.md-2",
+    "pool": [
+      "react_reference_react_useDeferredValue.md-8",
+      "vue_api_built-in-components.md-4",
+      "vue_guide_built-ins_transition-group.md-0",
+      "vue_guide_built-ins_transition-group.md-2",
+      "vue_guide_built-ins_transition-group.md-3",
+      "vue_guide_built-ins_transition.md-9",
+      "vue_guide_essentials_lis.md-5",
+      "vue_guide_essentials_list.md-5"
+    ]
+  }
+]

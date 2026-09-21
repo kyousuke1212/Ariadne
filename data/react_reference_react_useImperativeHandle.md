@@ -1,0 +1,93 @@
+API 参考Hook Copy pageCopy
+# useImperativeHandle
+useImperativeHandle 是 React 中的一个 Hook，它能让你自定义由 ref 暴露出来的句柄。
+```
+useImperativeHandle(ref, createHandle, dependencies?)
+```
+参考
+- useImperativeHandle(ref, createHandle, dependencies?)
+使用方法
+- 向父组件暴露一个自定义的 ref 句柄
+- 暴露你自己的命令式方法
+## 参考
+### useImperativeHandle(ref, createHandle, dependencies?)
+在组件顶层通过调用 useImperativeHandle 来自定义 ref 暴露出来的句柄：
+```
+import { useImperativeHandle } from 'react';function MyInput({ ref }) {  useImperativeHandle(ref, () => {    return {      // ... 你的方法 ...    };  }, []);  // ...
+```
+请看下面的更多例子
+#### 参数
+ref：该 ref 是你从 MyInput 组件的 prop 中提取的参数。
+createHandle：该函数无需参数，它返回你想要暴露的 ref 的句柄。该句柄可以包含任何类型。通常，你会返回一个包含你想暴露的方法的对象。
+可选的 dependencies：函数 createHandle 代码中所用到的所有反应式的值的列表。反应式的值包含 props、状态和其他所有直接在你组件体内声明的变量和函数。倘若你的代码检查器已 为 React 配置好，它会验证每一个反应式的值是否被正确指定为依赖项。该列表的长度必须是一个常数项，并且必须按照 [dep1, dep2, dep3] 的形式罗列各依赖项。React 会使用 Object.is 来比较每一个依赖项与其对应的之前值。如果一次重新渲染导致某些依赖项发生了改变，或你没有提供这个参数列表，你的函数 createHandle 将会被重新执行，而新生成的句柄则会被分配给 ref。
+### 注意
+从 React 19 开始， ref 可作为 prop 使用 。在 React 18 及更早版本中，需要通过 forwardRef 来获取 ref 。
+#### 返回值
+useImperativeHandle 返回 undefined。
+## 使用方法
+### 向父组件暴露一个自定义的 ref 句柄
+要在父元素中访问 DOM 节点，需要在节点上设置 ref 属性。
+```
+function MyInput({ ref }) {  return <input ref={ref} />;};
+```
+在上方的代码中，MyInput 的 ref 会接收到 <input> DOM 节点。然而，你可以选择暴露一个自定义的值。为了修改被暴露的句柄，在你的顶层组件调用 useImperativeHandle：
+```
+import { useImperativeHandle } from 'react';function MyInput({ ref }) {  useImperativeHandle(ref, () => {    return {      // ... 你的方法 ...    };  }, []);  return <input />;};
+```
+注意在上述代码中，该 ref 已不再被转发到 <input> 中。
+举例来说，假设你不想暴露出整个 <input> DOM 节点，但你想要它其中两个方法：focus 和 scrollIntoView。为此，用单独额外的 ref 来指向真实的浏览器 DOM。然后使用 useImperativeHandle 来暴露一个句柄，它只返回你想要父组件去调用的方法：
+```
+import { useRef, useImperativeHandle } from 'react';function MyInput({ ref }) {  const inputRef = useRef(null);  useImperativeHandle(ref, () => {    return {      focus() {        inputRef.current.focus();      },      scrollIntoView() {        inputRef.current.scrollIntoView();      },    };  }, []);  return <input ref={inputRef} />;};
+```
+现在，如果你的父组件获得了 MyInput 的 ref，就能通过该 ref 来调用 focus 和 scrollIntoView 方法。然而，它的访问是受限的，无法读取或调用下方 <input> DOM 节点的其他所有属性和方法。
+```
+App.jsMyInput.jsApp.jsReloadClearForkimport { useRef } from 'react';
+import MyInput from './MyInput.js';
+
+export default function Form() {
+  const ref = useRef(null);
+
+  function handleClick() {
+    ref.current.focus();
+    // 下方代码不起作用，因为 DOM 节点并未被暴露出来：
+    // ref.current.style.opacity = 0.5;
+  }
+
+  return (
+    <form>
+      <MyInput placeholder="Enter your name" ref={ref} />
+      <button type="button" onClick={handleClick}>
+        Edit
+      </button>
+    </form>
+  );
+}
+```
+显示更多
+### 暴露你自己的命令式方法
+你通过命令式句柄暴露出来的方法不一定需要完全匹配 DOM 节点的方法。例如，这个 Post 组件暴露了一个 scrollAndFocusAddComment 方法。它可以让你在点击按钮后，使父组件 Page 滚动到评论列表的底部 并 聚焦到输入框：
+```
+App.jsPost.jsCommentList.jsAddComment.jsApp.jsReloadClearForkimport { useRef } from 'react';
+import Post from './Post.js';
+
+export default function Page() {
+  const postRef = useRef(null);
+
+  function handleClick() {
+    postRef.current.scrollAndFocusAddComment();
+  }
+
+  return (
+    <>
+      <button onClick={handleClick}>
+        Write a comment
+      </button>
+      <Post ref={postRef} />
+    </>
+  );
+}
+```
+显示更多
+### 陷阱
+不要滥用 ref。 你应当仅在你没法通过 prop 来表达 命令式 行为的时候才使用 ref：例如，滚动到指定节点、聚焦某个节点、触发一次动画，以及选择文本等等。
+如果可以通过 prop 实现，那就不应该使用 ref。例如，你不应该从一个 Modal 组件暴露出 {open, close} 这样的命令式句柄，最好是像 <Modal isOpen={isOpen} /> 这样，将 isOpen 作为一个 prop。副作用 可以帮你通过 prop 来暴露一些命令式的行为。
