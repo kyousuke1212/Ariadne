@@ -1,0 +1,7 @@
+jieba
+numpy
+sentence-transformers
+openai
+fastapi
+uvicorn
+streamlit
