@@ -18,8 +18,8 @@
 - [x] RRF 混合融合
 - [x] 评测指标（Recall@K / MRR / 延迟）
 - [x] 自研 HNSW 图索引 ★
-- [ ] ReAct Agent
-- [ ] FastAPI + Streamlit + Docker
+- [x] ReAct Agent
+- [x] FastAPI + Streamlit + Docker
 
 ## TODO
 
