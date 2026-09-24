@@ -40,9 +40,6 @@ def load_markdown_dir(dir_path) -> list[dict]:
             result.append({"text": text, "source": filename})
     return result
 
-docs = load_markdown_dir("data")
-#print(len(docs), docs[0]["source"])
-
 def find_heading(piece:str) -> str :
     for line in piece.split("\n"):        
         if line.startswith("#"):          
@@ -61,7 +58,3 @@ def build_chunks(data_dir) -> list[Chunk] :
                 source=doc["source"],
             ))
     return chunks
-
-chunks = build_chunks("data")
-for c in chunks:
-    print(c.chunk_id, "|", c.heading, "|", len(c.tokens), "|", c.text[:20])
