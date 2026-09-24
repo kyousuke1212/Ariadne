@@ -16,8 +16,8 @@
 - [x] 评测集（先行）
 - [x] BaseRetriever + brute向量检索
 - [x] RRF 混合融合
-- [ ] 评测指标（Recall@K / MRR / 延迟）
-- [ ] 自研 HNSW 图索引 ★
+- [x] 评测指标（Recall@K / MRR / 延迟）
+- [x] 自研 HNSW 图索引 ★
 - [ ] ReAct Agent
 - [ ] FastAPI + Streamlit + Docker
 
